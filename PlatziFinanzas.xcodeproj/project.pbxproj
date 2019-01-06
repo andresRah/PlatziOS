@@ -8,24 +8,69 @@
 
 /* Begin PBXBuildFile section */
 		040CB24921E1034000F52B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB24821E1034000F52B03 /* AppDelegate.swift */; };
-		040CB24B21E1034000F52B03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB24A21E1034000F52B03 /* ViewController.swift */; };
 		040CB24E21E1034000F52B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB24C21E1034000F52B03 /* Main.storyboard */; };
 		040CB25021E1034200F52B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040CB24F21E1034200F52B03 /* Assets.xcassets */; };
 		040CB25321E1034200F52B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB25121E1034200F52B03 /* LaunchScreen.storyboard */; };
+		040CB25D21E10BC100F52B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB24821E1034000F52B03 /* AppDelegate.swift */; };
+		040CB26021E10BC100F52B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB25121E1034200F52B03 /* LaunchScreen.storyboard */; };
+		040CB26121E10BC100F52B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040CB24F21E1034200F52B03 /* Assets.xcassets */; };
+		040CB26221E10BC100F52B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB24C21E1034000F52B03 /* Main.storyboard */; };
+		040CB27C21E123EB00F52B03 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB27B21E123EB00F52B03 /* Transactions.storyboard */; };
+		040CB27F21E1253300F52B03 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB27E21E1253300F52B03 /* Add.storyboard */; };
+		040CB28321E126B100F52B03 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB28221E126B100F52B03 /* Profile.storyboard */; };
+		040CB28521E126D500F52B03 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB28421E126D500F52B03 /* Budget.storyboard */; };
+		040CB28721E126F100F52B03 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB28621E126F100F52B03 /* Statistics.storyboard */; };
+		040CB28A21E12CCC00F52B03 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040CB28921E12CCC00F52B03 /* Colors.xcassets */; };
+		040CB28D21E1340D00F52B03 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB28C21E1340D00F52B03 /* Shadow.swift */; };
+		040CB28F21E14E5E00F52B03 /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB28E21E14E5E00F52B03 /* OnBoarding.storyboard */; };
+		040CB29121E1A84400F52B03 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB29021E1A84400F52B03 /* OnBoardingContainerViewController.swift */; };
+		040CB29321E1AB0C00F52B03 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB29221E1AB0C00F52B03 /* OnBoardingViewController.swift */; };
+		040CB29521E1B04700F52B03 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB29421E1B04700F52B03 /* OnBoardingStepsViewController.swift */; };
+		040CB29721E1BFBA00F52B03 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB29621E1BFB900F52B03 /* TransactionsViewController.swift */; };
+		040CB29921E1C66B00F52B03 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040CB29821E1C66B00F52B03 /* EmptyState.xib */; };
+		040CB29B21E2793300F52B03 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB29A21E2793300F52B03 /* TabBarViewController.swift */; };
+		040CB29D21E27F5F00F52B03 /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040CB29C21E27F5F00F52B03 /* TransactionsCell.xib */; };
+		040CB29F21E280B200F52B03 /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB29E21E280B200F52B03 /* BudgetViewController.swift */; };
+		040CB2A121E28BE200F52B03 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB2A021E28BE200F52B03 /* SignIn.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040CB24521E1034000F52B03 /* PlatziFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040CB24821E1034000F52B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		040CB24A21E1034000F52B03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		040CB24D21E1034000F52B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040CB24F21E1034200F52B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040CB25221E1034200F52B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040CB25421E1034200F52B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040CB26621E10BC100F52B03 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040CB26721E10BC200F52B03 /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = /Users/mac/Development/iOS/PlatziFinanzas/Production.plist; sourceTree = "<absolute>"; };
+		040CB27B21E123EB00F52B03 /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
+		040CB27E21E1253300F52B03 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
+		040CB28221E126B100F52B03 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		040CB28421E126D500F52B03 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
+		040CB28621E126F100F52B03 /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		040CB28921E12CCC00F52B03 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		040CB28C21E1340D00F52B03 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		040CB28E21E14E5E00F52B03 /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		040CB29021E1A84400F52B03 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
+		040CB29221E1AB0C00F52B03 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		040CB29421E1B04700F52B03 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
+		040CB29621E1BFB900F52B03 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		040CB29821E1C66B00F52B03 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
+		040CB29A21E2793300F52B03 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		040CB29C21E27F5F00F52B03 /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		040CB29E21E280B200F52B03 /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
+		040CB2A021E28BE200F52B03 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		040CB24221E1034000F52B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040CB25E21E10BC100F52B03 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				040CB24521E1034000F52B03 /* PlatziFinanzas.app */,
+				040CB26621E10BC100F52B03 /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +100,159 @@
 		040CB24721E1034000F52B03 /* PlatziFinanzas */ = {
 			isa = PBXGroup;
 			children = (
-				040CB24821E1034000F52B03 /* AppDelegate.swift */,
-				040CB24A21E1034000F52B03 /* ViewController.swift */,
-				040CB24C21E1034000F52B03 /* Main.storyboard */,
-				040CB24F21E1034200F52B03 /* Assets.xcassets */,
-				040CB25121E1034200F52B03 /* LaunchScreen.storyboard */,
-				040CB25421E1034200F52B03 /* Info.plist */,
+				040CB28B21E133DC00F52B03 /* Extensions */,
+				040CB26A21E10E4F00F52B03 /* Resources */,
+				040CB26921E10E1100F52B03 /* Base */,
+				040CB26821E10DFF00F52B03 /* Application */,
 			);
 			path = PlatziFinanzas;
+			sourceTree = "<group>";
+		};
+		040CB26821E10DFF00F52B03 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				040CB26D21E10E8500F52B03 /* Main */,
+				040CB26C21E10E7500F52B03 /* Authentication */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		040CB26921E10E1100F52B03 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				040CB25421E1034200F52B03 /* Info.plist */,
+				040CB26721E10BC200F52B03 /* Production.plist */,
+				040CB25121E1034200F52B03 /* LaunchScreen.storyboard */,
+				040CB24821E1034000F52B03 /* AppDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		040CB26A21E10E4F00F52B03 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				040CB28821E12CBA00F52B03 /* Colors */,
+				040CB26B21E10E6700F52B03 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		040CB26B21E10E6700F52B03 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				040CB24F21E1034200F52B03 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		040CB26C21E10E7500F52B03 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				040CB26F21E10E9E00F52B03 /* Sign In */,
+				040CB26E21E10E8D00F52B03 /* OnBoarding */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		040CB26D21E10E8500F52B03 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				040CB28121E1257300F52B03 /* Budget */,
+				040CB28021E1256600F52B03 /* Statistics */,
+				040CB27D21E1248200F52B03 /* Add */,
+				040CB27221E10EC400F52B03 /* Main */,
+				040CB27121E10EB900F52B03 /* Profile */,
+				040CB27021E10EAE00F52B03 /* Transactions */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		040CB26E21E10E8D00F52B03 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				040CB28E21E14E5E00F52B03 /* OnBoarding.storyboard */,
+				040CB29021E1A84400F52B03 /* OnBoardingContainerViewController.swift */,
+				040CB29221E1AB0C00F52B03 /* OnBoardingViewController.swift */,
+				040CB29421E1B04700F52B03 /* OnBoardingStepsViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		040CB26F21E10E9E00F52B03 /* Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				040CB2A021E28BE200F52B03 /* SignIn.storyboard */,
+			);
+			path = "Sign In";
+			sourceTree = "<group>";
+		};
+		040CB27021E10EAE00F52B03 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				040CB27B21E123EB00F52B03 /* Transactions.storyboard */,
+				040CB29621E1BFB900F52B03 /* TransactionsViewController.swift */,
+				040CB29821E1C66B00F52B03 /* EmptyState.xib */,
+				040CB29C21E27F5F00F52B03 /* TransactionsCell.xib */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		040CB27121E10EB900F52B03 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				040CB28221E126B100F52B03 /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		040CB27221E10EC400F52B03 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				040CB24C21E1034000F52B03 /* Main.storyboard */,
+				040CB29A21E2793300F52B03 /* TabBarViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		040CB27D21E1248200F52B03 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				040CB27E21E1253300F52B03 /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
+		040CB28021E1256600F52B03 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				040CB28621E126F100F52B03 /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		040CB28121E1257300F52B03 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				040CB28421E126D500F52B03 /* Budget.storyboard */,
+				040CB29E21E280B200F52B03 /* BudgetViewController.swift */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		040CB28821E12CBA00F52B03 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				040CB28921E12CCC00F52B03 /* Colors.xcassets */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		040CB28B21E133DC00F52B03 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				040CB28C21E1340D00F52B03 /* Shadow.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +273,23 @@
 			name = PlatziFinanzas;
 			productName = PlatziFinanzas;
 			productReference = 040CB24521E1034000F52B03 /* PlatziFinanzas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040CB25A21E10BC100F52B03 /* Production */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040CB26321E10BC100F52B03 /* Build configuration list for PBXNativeTarget "Production" */;
+			buildPhases = (
+				040CB25B21E10BC100F52B03 /* Sources */,
+				040CB25E21E10BC100F52B03 /* Frameworks */,
+				040CB25F21E10BC100F52B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Production;
+			productName = PlatziFinanzas;
+			productReference = 040CB26621E10BC100F52B03 /* Production.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,6 +321,7 @@
 			projectRoot = "";
 			targets = (
 				040CB24421E1034000F52B03 /* PlatziFinanzas */,
+				040CB25A21E10BC100F52B03 /* Production */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +331,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				040CB28F21E14E5E00F52B03 /* OnBoarding.storyboard in Resources */,
 				040CB25321E1034200F52B03 /* LaunchScreen.storyboard in Resources */,
 				040CB25021E1034200F52B03 /* Assets.xcassets in Resources */,
+				040CB28521E126D500F52B03 /* Budget.storyboard in Resources */,
 				040CB24E21E1034000F52B03 /* Main.storyboard in Resources */,
+				040CB28A21E12CCC00F52B03 /* Colors.xcassets in Resources */,
+				040CB29921E1C66B00F52B03 /* EmptyState.xib in Resources */,
+				040CB29D21E27F5F00F52B03 /* TransactionsCell.xib in Resources */,
+				040CB27F21E1253300F52B03 /* Add.storyboard in Resources */,
+				040CB2A121E28BE200F52B03 /* SignIn.storyboard in Resources */,
+				040CB28721E126F100F52B03 /* Statistics.storyboard in Resources */,
+				040CB28321E126B100F52B03 /* Profile.storyboard in Resources */,
+				040CB27C21E123EB00F52B03 /* Transactions.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040CB25F21E10BC100F52B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040CB26021E10BC100F52B03 /* LaunchScreen.storyboard in Resources */,
+				040CB26121E10BC100F52B03 /* Assets.xcassets in Resources */,
+				040CB26221E10BC100F52B03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +364,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040CB24B21E1034000F52B03 /* ViewController.swift in Sources */,
+				040CB29B21E2793300F52B03 /* TabBarViewController.swift in Sources */,
+				040CB29721E1BFBA00F52B03 /* TransactionsViewController.swift in Sources */,
+				040CB28D21E1340D00F52B03 /* Shadow.swift in Sources */,
+				040CB29521E1B04700F52B03 /* OnBoardingStepsViewController.swift in Sources */,
 				040CB24921E1034000F52B03 /* AppDelegate.swift in Sources */,
+				040CB29121E1A84400F52B03 /* OnBoardingContainerViewController.swift in Sources */,
+				040CB29321E1AB0C00F52B03 /* OnBoardingViewController.swift in Sources */,
+				040CB29F21E280B200F52B03 /* BudgetViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040CB25B21E10BC100F52B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040CB25D21E10BC100F52B03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +526,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlatziFinanzas/Info.plist;
+				DEVELOPMENT_TEAM = LF65QC4VMX;
+				INFOPLIST_FILE = "$(SRCROOT)/PlatziFinanzas/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,7 +536,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,7 +545,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PlatziFinanzas/Info.plist;
+				DEVELOPMENT_TEAM = LF65QC4VMX;
+				INFOPLIST_FILE = "$(SRCROOT)/PlatziFinanzas/Base/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +555,45 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		040CB26421E10BC100F52B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF65QC4VMX;
+				INFOPLIST_FILE = "$(SRCROOT)/Production.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		040CB26521E10BC100F52B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF65QC4VMX;
+				INFOPLIST_FILE = "$(SRCROOT)/Production.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -329,6 +614,15 @@
 			buildConfigurations = (
 				040CB25821E1034200F52B03 /* Debug */,
 				040CB25921E1034200F52B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040CB26321E10BC100F52B03 /* Build configuration list for PBXNativeTarget "Production" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040CB26421E10BC100F52B03 /* Debug */,
+				040CB26521E10BC100F52B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
