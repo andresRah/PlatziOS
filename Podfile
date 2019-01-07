@@ -1,19 +1,20 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '11.0'
+inhibit_all_warnings!
 
 target 'PlatziFinanzas' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-    pod 'lottie-ios', '~> 2.5'
+    # pod 'lottie-ios', '~> 2.5'
+    pod 'Firebase/Core'
+    pod 'Fabric'
+    pod 'Crashlytics'
+    pod 'Firebase/Core'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Messaging'
+    pod 'Firebase/Firestore'
+    pod 'Firebase/InAppMessagingDisplay'
+    pod 'FBSDKLoginKit'
 
   # Pods for PlatziFinanzas
-
-end
-
-target 'Production' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for Production
 
 end

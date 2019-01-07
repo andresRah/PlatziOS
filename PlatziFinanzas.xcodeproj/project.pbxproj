@@ -11,10 +11,6 @@
 		040CB24E21E1034000F52B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB24C21E1034000F52B03 /* Main.storyboard */; };
 		040CB25021E1034200F52B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040CB24F21E1034200F52B03 /* Assets.xcassets */; };
 		040CB25321E1034200F52B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB25121E1034200F52B03 /* LaunchScreen.storyboard */; };
-		040CB25D21E10BC100F52B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB24821E1034000F52B03 /* AppDelegate.swift */; };
-		040CB26021E10BC100F52B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB25121E1034200F52B03 /* LaunchScreen.storyboard */; };
-		040CB26121E10BC100F52B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040CB24F21E1034200F52B03 /* Assets.xcassets */; };
-		040CB26221E10BC100F52B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB24C21E1034000F52B03 /* Main.storyboard */; };
 		040CB27C21E123EB00F52B03 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB27B21E123EB00F52B03 /* Transactions.storyboard */; };
 		040CB27F21E1253300F52B03 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB27E21E1253300F52B03 /* Add.storyboard */; };
 		040CB28321E126B100F52B03 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB28221E126B100F52B03 /* Profile.storyboard */; };
@@ -38,8 +34,25 @@
 		040CB2C021E2B64C00F52B03 /* Lottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040CB2BF21E2B64C00F52B03 /* Lottie.storyboard */; };
 		040CB2C221E2B6C100F52B03 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CB2C121E2B6C100F52B03 /* LottieViewController.swift */; };
 		040CB2C621E2B80200F52B03 /* day_of_the_dead_skull.json in Resources */ = {isa = PBXBuildFile; fileRef = 040CB2C521E2B80200F52B03 /* day_of_the_dead_skull.json */; };
-		96200527CD332581B11E3272 /* Pods_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06541B722B2FA31338A1508A /* Pods_Production.framework */; };
+		04A818C721E2C1050042D4DA /* PlatziFinanzasCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A818C521E2C1050042D4DA /* PlatziFinanzasCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A818CA21E2C1050042D4DA /* PlatziFinanzasCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A818C321E2C1050042D4DA /* PlatziFinanzasCore.framework */; };
+		04A818CB21E2C1050042D4DA /* PlatziFinanzasCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04A818C321E2C1050042D4DA /* PlatziFinanzasCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04A818D321E2C2DB0042D4DA /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A818CF21E2C2DB0042D4DA /* Transaction.swift */; };
+		04A818D421E2C2DB0042D4DA /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A818D021E2C2DB0042D4DA /* Account.swift */; };
+		04A818D521E2C2DB0042D4DA /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A818D121E2C2DB0042D4DA /* Budget.swift */; };
+		04A818D621E2C2DB0042D4DA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A818D221E2C2DB0042D4DA /* User.swift */; };
+		727309B423D302BC3CD930F0 /* Pods_PlatziFinanzas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3694F652137CC71D9A5C6039 /* Pods_PlatziFinanzas.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A818C821E2C1050042D4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040CB23D21E1034000F52B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A818C221E2C1050042D4DA;
+			remoteInfo = PlatziFinanzasCore;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		040CB2BA21E2B39900F52B03 /* Embed Frameworks */ = {
@@ -49,6 +62,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				040CB2B921E2B39800F52B03 /* Lottie.framework in Embed Frameworks */,
+				04A818CB21E2C1050042D4DA /* PlatziFinanzasCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,7 +76,6 @@
 		040CB24F21E1034200F52B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040CB25221E1034200F52B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040CB25421E1034200F52B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		040CB26621E10BC100F52B03 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040CB26721E10BC200F52B03 /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = /Users/mac/Development/iOS/PlatziFinanzas/Production.plist; sourceTree = "<absolute>"; };
 		040CB27B21E123EB00F52B03 /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
 		040CB27E21E1253300F52B03 /* Add.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Add.storyboard; sourceTree = "<group>"; };
@@ -87,6 +100,13 @@
 		040CB2BF21E2B64C00F52B03 /* Lottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lottie.storyboard; sourceTree = "<group>"; };
 		040CB2C121E2B6C100F52B03 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
 		040CB2C521E2B80200F52B03 /* day_of_the_dead_skull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = day_of_the_dead_skull.json; sourceTree = "<group>"; };
+		04A818C321E2C1050042D4DA /* PlatziFinanzasCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PlatziFinanzasCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A818C521E2C1050042D4DA /* PlatziFinanzasCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlatziFinanzasCore.h; sourceTree = "<group>"; };
+		04A818C621E2C1050042D4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A818CF21E2C2DB0042D4DA /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		04A818D021E2C2DB0042D4DA /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		04A818D121E2C2DB0042D4DA /* Budget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		04A818D221E2C2DB0042D4DA /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		06541B722B2FA31338A1508A /* Pods_Production.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Production.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C89DEFF6AAAFF223A31793 /* Pods-PlatziFinanzas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlatziFinanzas.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlatziFinanzas/Pods-PlatziFinanzas.release.xcconfig"; sourceTree = "<group>"; };
 		3694F652137CC71D9A5C6039 /* Pods_PlatziFinanzas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlatziFinanzas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,14 +121,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				040CB2B821E2B39800F52B03 /* Lottie.framework in Frameworks */,
+				04A818CA21E2C1050042D4DA /* PlatziFinanzasCore.framework in Frameworks */,
+				727309B423D302BC3CD930F0 /* Pods_PlatziFinanzas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		040CB25E21E10BC100F52B03 /* Frameworks */ = {
+		04A818C021E2C1050042D4DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96200527CD332581B11E3272 /* Pods_Production.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +142,7 @@
 				040CB2B721E2B39800F52B03 /* Lottie.framework */,
 				040CB2A221E2975D00F52B03 /* Cartfile */,
 				040CB24721E1034000F52B03 /* PlatziFinanzas */,
+				04A818C421E2C1050042D4DA /* PlatziFinanzasCore */,
 				040CB24621E1034000F52B03 /* Products */,
 				FC198A6722F1C11C3494EEBF /* Pods */,
 				E138DA0380EB37CC674686CB /* Frameworks */,
@@ -131,7 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				040CB24521E1034000F52B03 /* PlatziFinanzas.app */,
-				040CB26621E10BC100F52B03 /* Production.app */,
+				04A818C321E2C1050042D4DA /* PlatziFinanzasCore.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -305,6 +327,19 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		04A818C421E2C1050042D4DA /* PlatziFinanzasCore */ = {
+			isa = PBXGroup;
+			children = (
+				04A818D021E2C2DB0042D4DA /* Account.swift */,
+				04A818D121E2C2DB0042D4DA /* Budget.swift */,
+				04A818CF21E2C2DB0042D4DA /* Transaction.swift */,
+				04A818D221E2C2DB0042D4DA /* User.swift */,
+				04A818C521E2C1050042D4DA /* PlatziFinanzasCore.h */,
+				04A818C621E2C1050042D4DA /* Info.plist */,
+			);
+			path = PlatziFinanzasCore;
+			sourceTree = "<group>";
+		};
 		E138DA0380EB37CC674686CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +363,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		04A818BE21E2C1050042D4DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A818C721E2C1050042D4DA /* PlatziFinanzasCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		040CB24421E1034000F52B03 /* PlatziFinanzas */ = {
 			isa = PBXNativeTarget;
@@ -339,33 +385,36 @@
 				040CB24321E1034000F52B03 /* Resources */,
 				040CB2BA21E2B39900F52B03 /* Embed Frameworks */,
 				040CB2BD21E2B43200F52B03 /* ShellScript */,
+				2B44ADF24EBF78D7D6D87B34 /* [CP] Embed Pods Frameworks */,
+				E7707427F5DD99BD9B467F58 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04A818C921E2C1050042D4DA /* PBXTargetDependency */,
 			);
 			name = PlatziFinanzas;
 			productName = PlatziFinanzas;
 			productReference = 040CB24521E1034000F52B03 /* PlatziFinanzas.app */;
 			productType = "com.apple.product-type.application";
 		};
-		040CB25A21E10BC100F52B03 /* Production */ = {
+		04A818C221E2C1050042D4DA /* PlatziFinanzasCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 040CB26321E10BC100F52B03 /* Build configuration list for PBXNativeTarget "Production" */;
+			buildConfigurationList = 04A818CC21E2C1050042D4DA /* Build configuration list for PBXNativeTarget "PlatziFinanzasCore" */;
 			buildPhases = (
-				604690943598A3C08A7CA06E /* [CP] Check Pods Manifest.lock */,
-				040CB25B21E10BC100F52B03 /* Sources */,
-				040CB25E21E10BC100F52B03 /* Frameworks */,
-				040CB25F21E10BC100F52B03 /* Resources */,
+				04A818BE21E2C1050042D4DA /* Headers */,
+				04A818BF21E2C1050042D4DA /* Sources */,
+				04A818C021E2C1050042D4DA /* Frameworks */,
+				04A818C121E2C1050042D4DA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Production;
-			productName = PlatziFinanzas;
-			productReference = 040CB26621E10BC100F52B03 /* Production.app */;
-			productType = "com.apple.product-type.application";
+			name = PlatziFinanzasCore;
+			productName = PlatziFinanzasCore;
+			productReference = 04A818C321E2C1050042D4DA /* PlatziFinanzasCore.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -379,6 +428,10 @@
 				TargetAttributes = {
 					040CB24421E1034000F52B03 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					04A818C221E2C1050042D4DA = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -396,7 +449,7 @@
 			projectRoot = "";
 			targets = (
 				040CB24421E1034000F52B03 /* PlatziFinanzas */,
-				040CB25A21E10BC100F52B03 /* Production */,
+				04A818C221E2C1050042D4DA /* PlatziFinanzasCore */,
 			);
 		};
 /* End PBXProject section */
@@ -425,13 +478,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		040CB25F21E10BC100F52B03 /* Resources */ = {
+		04A818C121E2C1050042D4DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040CB26021E10BC100F52B03 /* LaunchScreen.storyboard in Resources */,
-				040CB26121E10BC100F52B03 /* Assets.xcassets in Resources */,
-				040CB26221E10BC100F52B03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +506,48 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
+		2B44ADF24EBF78D7D6D87B34 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PlatziFinanzas/Pods-PlatziFinanzas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlatziFinanzas/Pods-PlatziFinanzas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		56148AF52811C45FCC158594 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -478,7 +570,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		604690943598A3C08A7CA06E /* [CP] Check Pods Manifest.lock */ = {
+		E7707427F5DD99BD9B467F58 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -486,18 +578,20 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${SRCROOT}/Pods/Target Support Files/Pods-PlatziFinanzas/Pods-PlatziFinanzas-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/gRPCCertificates-Firestore.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInAppMessagingDisplay/InAppMessagingDisplayResources.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Production-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Firestore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InAppMessagingDisplayResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlatziFinanzas/Pods-PlatziFinanzas-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -519,15 +613,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		040CB25B21E10BC100F52B03 /* Sources */ = {
+		04A818BF21E2C1050042D4DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040CB25D21E10BC100F52B03 /* AppDelegate.swift in Sources */,
+				04A818D621E2C2DB0042D4DA /* User.swift in Sources */,
+				04A818D321E2C2DB0042D4DA /* Transaction.swift in Sources */,
+				04A818D421E2C2DB0042D4DA /* Account.swift in Sources */,
+				04A818D521E2C2DB0042D4DA /* Budget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A818C921E2C1050042D4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A818C221E2C1050042D4DA /* PlatziFinanzasCore */;
+			targetProxy = 04A818C821E2C1050042D4DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		040CB24C21E1034000F52B03 /* Main.storyboard */ = {
@@ -669,6 +774,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA051107793A30D271F0606B /* Pods-PlatziFinanzas.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LF65QC4VMX;
@@ -693,6 +799,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24C89DEFF6AAAFF223A31793 /* Pods-PlatziFinanzas.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LF65QC4VMX;
@@ -713,43 +820,64 @@
 			};
 			name = Release;
 		};
-		040CB26421E10BC100F52B03 /* Debug */ = {
+		04A818CD21E2C1050042D4DA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F446900B53F6E387EAD39453 /* Pods-Production.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = LF65QC4VMX;
-				INFOPLIST_FILE = "$(SRCROOT)/Production.plist";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PlatziFinanzasCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzasCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		040CB26521E10BC100F52B03 /* Release */ = {
+		04A818CE21E2C1050042D4DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AA8D7A0712002EC5944F87E /* Pods-Production.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = LF65QC4VMX;
-				INFOPLIST_FILE = "$(SRCROOT)/Production.plist";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PlatziFinanzasCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzas;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.platzi.PlatziFinanzasCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -774,11 +902,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		040CB26321E10BC100F52B03 /* Build configuration list for PBXNativeTarget "Production" */ = {
+		04A818CC21E2C1050042D4DA /* Build configuration list for PBXNativeTarget "PlatziFinanzasCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				040CB26421E10BC100F52B03 /* Debug */,
-				040CB26521E10BC100F52B03 /* Release */,
+				04A818CD21E2C1050042D4DA /* Debug */,
+				04A818CE21E2C1050042D4DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
